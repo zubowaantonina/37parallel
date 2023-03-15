@@ -161,31 +161,37 @@ body {
 .command {
  position: relative;
 }
-.command-foto img{
+.command-foto{
   width: 1365px;
-  height: 597px;
+}
+.command-foto img{
   object-fit: cover;
+ object-position: -3px -235px;
+  width: 100%;
+  height: 516px;
+  
+
 }
 .foto-pris{
   position: absolute;
-  top: 10px;
-  right: 30px;
-  width: 295px;
-  height: 295px;
+  top: 7px;
+  right: 56px;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
 }
 .foto-pris img{
   object-fit: cover;
-  width: 295px;
-  height: 295px;
+  width: 280px;
+  height: 280px;
 }
 .logo-pris{
   position: absolute;
   top: 10px;
- left: 30px;
+ left: 10px;
 }
 .logo-pris img{
-  width: 172px;
+  width: 180px;
 }
 .foto-message{
   height: 197px;
@@ -195,12 +201,18 @@ body {
   justify-content: space-between;
   margin-top: 20px;
 }
+.foto-item:nth-child(1){
+  height: 196px; 
+  width: 115px;
+}
 .foto-item:nth-child(1) img{
   display: block;
-  height: 197px;
-  width: 126px;
-  object-position: 0 10px ;
+  height: 212px;
+  width: 171px;
+  object-position: 0 -20px;
   object-fit: cover;
+  
+ 
 }
 .foto-item:nth-child(2) img{
   display: block;
@@ -265,7 +277,7 @@ color: #343c57;
   gap: 90px;
 }
 .footer{
-  background: #3E2E15;
+  background: #473518;
   margin-top: 30px;
 
 }
@@ -275,7 +287,7 @@ color: #343c57;
   justify-content:space-between;
   /* padding-top: 25px;
   padding-bottom: 25px; */
-  padding: 25px 50px;
+  padding: 20px 60px;
 
 }
 .foter-left{
@@ -286,7 +298,7 @@ color: #343c57;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 18px;
   color: #C3BDB6;
   
@@ -299,13 +311,13 @@ color: #343c57;
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
+font-size: 13px;
 line-height: 18px;
-color: #FFFFFF;
+color: #C3BDB6;
 }
 .mobile-phone{
   text-decoration: none;
-  color: #FFFFFF;
+  color: #C3BDB6;
 }
 .mobile-phone:hover{
   color: #f3c091;
@@ -314,7 +326,7 @@ color: #FFFFFF;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 15px;
   color: #C3BDB6;
   text-align: center;
